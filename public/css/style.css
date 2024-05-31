@@ -309,7 +309,180 @@ label h1 {
 /* page 5 */
 
 
-/** main image body */
+
+  /** main image body start */
+
+  .title-tag {
+    color: red;
+
+  }
+
+  /** main image body end*/
+
+
+/** footer area start*/
+
+footer {
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bussiness-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bussiness-details li {
+    max-width: 200px;
+}
+
+.bussiness-details ul li{
+    color: red;
+    font-weight: bold;
+}
+
+.bussiness-details ul li:nth-child(1) {
+    color: inherit;
+} 
+/** bussine category ends*/
+
+
+/**send email start*/
+
+.send-offers-tag {
+    background-color: rgb(146, 9, 9);
+    color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.send-mail-box input:nth-child(1) { 
+    width: 100%;
+    height: 5vh;
+    border-radius: 50px;
+    border: transparent;
+}
+
+.send-mail-box input:nth-child(2) {
+    position: relative;
+    bottom: 35px;
+    left: 170px;
+    border:transparent;
+    background-color: transparent;
+    color: red;
+}
+
+.send-mail-box input::placeholder {
+    color: red; 
+  }
+
+.send-mail-box input:focus{
+    outline: none;
+}
+/**send email end*/
+
+
+
+/** portal link start */
+
+.link-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    padding: 25px;
+}
+
+.link-items li {
+    max-width: 15rem;
+    margin-bottom: 10px;
+}
+
+
+/** portal link end */
+
+
+
+/** second items start*/
+
+
+.second-footer-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-footer-items div, .second-footer-items h1, .second-footer-items h5 {
+    margin-bottom: 20px;
+}
+
+.second-footer-items .copy-containt {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-footer-items .copy-containt ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.second-footer-items .copy-containt ul li {
+    margin-right: 10px;
+}
+
+/** second items end*/
+
+/** third items start*/
+
+
+.brands-slider .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.brands-slider .swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.copy-right .fisrttcolumn label {
+    float: left;
+}
+
+.copy-right .secondcolumn ul {
+    float: right;
+    list-style: none; 
+    padding: 0; 
+}
+
+.copy-right .secondcolumn ul li {
+    display: inline-block; 
+    margin-left: 10px; 
+}
+
+/** footer area end*/
+  
+.fa-brands:hover {
+    color: red;
+}
 
 /** for testing*/
 .test {
