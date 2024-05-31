@@ -216,8 +216,8 @@ label h1 {
 }
 .card-1 {
   position: absolute;
-  top: -10px; /* Adjust as necessary */
-  left: 430px; /* Adjust as necessary */
+  top: -10px; 
+  left: 430px; 
   z-index: 10;
   background-color: #101934;
   color: #fff;
@@ -231,8 +231,8 @@ label h1 {
 }
 .card-2 {
     position: absolute;
-    top: -10px; /* Adjust as necessary */
-    left: 600px; /* Adjust as necessary */
+    top: -10px; 
+    left: 600px; 
     z-index: 10;
     background-color: #B62A20;
     color: #fff;
@@ -306,7 +306,16 @@ label h1 {
     color: #B62A20;
 }
 
-/* page 5 */
+/** items 5 start*/
+
+.itmems-5 {
+  display: flex;
+  flex-direction: column;
+}
+.itmems-5 .business-verticals {
+  display: flex;
+}
+/** items 5 end*/
 
   /** main image body start */
 

@@ -1,7 +1,7 @@
 <?php
-require_once('header.php');
-$header = new Header();
-$header->includeHeader('Index Page', '');
+    require_once('header.php');
+    $header = new Header();
+    $header->includeHeader('Index Page', '');
 ?>
 <div class="container-fluid">
     <!-- this is carousel page 1 -->
@@ -123,12 +123,21 @@ $header->includeHeader('Index Page', '');
             </div>
         </div>
     </div>
-    <!-- page 5 -->
-    <div class="page-5">
+    <!-- items 5 -->
+    <div class="itmems-5">
+        <div class="business-verticals">
+            <label for="title"><h3>Business Verticals<h3></label>
+            <label for=""><h1>DEFENCE & AEROSPACE</h1></label>
+            <label for="">
+                <p>Beign India's leading defence equipment manufactures, BEML Limited keeps the indian army and
+                 other defence forces abrests with state-of-the-art military equipment
+                </p>
+            </label>
+
+        </div>
     </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="public/js/slider.js"></script>
 
 <?php include_once ('footer.php');?>
-
