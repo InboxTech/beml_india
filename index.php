@@ -4,7 +4,7 @@ $header = new Header();
 $header->includeHeader('Index Page', '');
 ?>
 <div class="container-fluid">
-
+    <!-- this is carousel page 1 -->
     <div class="main-image">
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
@@ -42,10 +42,10 @@ $header->includeHeader('Index Page', '');
 
         </div>
     </div>
-
-    <div class="p-2">
+    <!-- page 2 -->
+    <div class="page-2">
         <div class="row">
-            <h3>- Who We Are.</h3>
+            <h3>- Who We Are</h3>
 
             <div class="col-lg-6">
                 <div class="image-container">
@@ -74,11 +74,64 @@ $header->includeHeader('Index Page', '');
             </div>
         </div>
     </div>
-</div>
+    <!-- page 3 -->
+    <div class="page-3">
+        <div class="d-flex justify-content-between">
+            <h3 class="col">- Business Verticals</h3>
+            <h1 class="col">BEML OFFERS QUALITY PRODUCTS</h1>
+        </div>
+        <div class="d-flex">
+            <div class="item">
+                <img src="public/images/defence.png" alt="Defence & Aerospace">
+                <span>DEFENCE & AEROSPACE</span>
+                <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
+            </div>
+            <div class="item">
+                <img src="public/images/mining.png" alt="Mining">
+                <span>DEFENCE & AEROSPACE</span>
+                <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
+            </div>
+            <div class="item">
+                <img src="public/images/rail.png" alt="Rail">
+                <span>DEFENCE & AEROSPACE</span>
+                <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
+            </div>
+        </div>
+    </div>
+    <!-- page 4 -->
+    <div class="page-4">
+        <div class="row">
+            <div class="col-lg-3 pe-4">
+                <span class="">HIGH MOBILITY VEHICLES</span>
+                <div class="line2"></div>
+                <h1>8500</h1>
+            </div>
+            <div class="col-lg-3 pe-4">
+                <span>CONSTRUCTION EQUIPMENT</span>
+                <div class="line2"></div>
+                <h1>32500</h1>
+            </div>
+            <div class="col-lg-3 pe-4">
+                <span>RAIL COACHES</span>
+                <div class="line2"></div>
+                <h1>8500</h1>
+            </div>
+            <div class="col-lg-3">
+                <span>ENGINES (76 HP - 700 HP)</span>
+                <div class="line2"></div>
+                <h1>27500</h1>
+            </div>
+        </div>
+    </div>
+    <!-- page 5 -->
+    <div class="page-5">
+        
+    </div>
+
 
 </div>
 
-</div>
+
 
 
 

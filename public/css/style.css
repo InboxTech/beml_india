@@ -190,13 +190,12 @@ label h1 {
 .title-tag {
   color: #b62a20;
 }
-
-.p-2 {
+/* page 2 */
+.page-2, .page-3, .page-4, .page-5, .page-6, .page-7{
   padding: 10px 20px;
   margin: 50px;
-  /* display: flex; */
 }
-.p-2 h3 {
+.page-2 h3, .page-3 h3, .page-4 h3, .page-5 h3{
   color: #b62a20;
   padding-bottom: 50px;
 }
@@ -249,6 +248,66 @@ label h1 {
   position: relative;
   display: inline-block;
 }
+
+/* page 3 */
+.page-3 .item {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.page-3 .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.page-3 .item span {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+.page-3 .button {
+    position: absolute;
+    bottom: 60px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: none;
+    color: #B62A20;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.page-3 .button img{
+    height: 10px;
+    width: 10px;
+}
+/* page 4 */
+.page-4 .line2 {
+    border: 1px solid #434343 !important;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.page-4 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.page-4 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #B62A20;
+}
+
+/* page 5 */
+
 
 /** main image body */
 
