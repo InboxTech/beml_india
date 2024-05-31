@@ -38,7 +38,6 @@
         </div>
     </div>
 
-    
     <div class="link-items">
         <div class="portal-links1">
             <h1>PORTAL LINKS</h1>
@@ -79,7 +78,6 @@
             <li>Component Details Of MSE Vendors</li>
             <li>Annual Plan for Procurement MSEs</li>
         </div> 
-
     </div>
     
 </footer>

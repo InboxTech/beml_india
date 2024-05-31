@@ -218,7 +218,11 @@ footer a {
 
 .bussiness-details {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.bussiness-details li {
+    max-width: 200px;
 }
 
 .bussiness-details ul li{
@@ -280,10 +284,16 @@ footer a {
 
 .link-items {
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-    padding: 10px;    
+    padding: 25px;
 }
+
+.link-items li {
+    max-width: 15rem;
+    margin-bottom: 10px;
+}
+
 
 /** portal link end */
 
