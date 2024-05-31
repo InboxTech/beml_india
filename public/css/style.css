@@ -3,6 +3,11 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+li {
+    list-style: none;
+}
+
 .fist-row, .second-row, .third-row {
     display: flex;
     justify-content: space-evenly;
@@ -11,7 +16,6 @@
 
 .fist-row .fist-row-items ul, .second-row .second-row-items ul  {
     display: flex;
-    list-style: none;
     padding: 0;
 }
 
@@ -35,7 +39,6 @@
 }
 .second-row .second-row-items li , .second-row-items a{
     color: inherit;
-    list-style: none;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -199,6 +202,95 @@ nav .navbar-nav li a{
 
   /** main image body */
 
+
+
+/** footer area start*/
+
+footer {
+    padding: 50px;
+    background-color: aliceblue;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bussiness-details {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bussiness-details ul li{
+    color: red;
+    font-weight: bold;
+}
+
+.bussiness-details ul li:nth-child(1) {
+    color: inherit;
+} 
+/** bussine category ends*/
+
+
+/**send email Starts*/
+
+.send-offers-tag {
+    background-color: rgb(146, 9, 9);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+
+.send-mail-box input {
+    height: 80%;
+    border-radius: 50px;
+    color: red;
+}
+.send-mail-box input .placeholder {
+    color: red;
+}
+/** new mail input */
+.send-mail-box .input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+.send-mail-box .input {
+    min-height: 50px;
+    max-width: 350px;
+    padding: 0 1rem;
+    color:red;
+  }
+  
+.send-mail-box .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    color:red;
+    cursor: pointer;
+  }
+/**send email Ends*/
+
+
+/** portal link start */
+
+.link-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: auto;
+    padding: 10px;    
+}
+
+/** portal link end */
+
+/** footer area end*/
+
+
+  
 
 /** for testing*/
 .test {
