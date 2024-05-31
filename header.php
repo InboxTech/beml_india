@@ -10,6 +10,8 @@ class Header {
                 <title>'.$title.'</title>
                 <link rel="stylesheet" href="'.$parentPath.'public/css/style.css">
                 <link rel="stylesheet" href="'.$parentPath.'public/bootstrap/bootstrap.min.css">
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+                
             </head>
             <body>  
                 <div class="fist-row"> 

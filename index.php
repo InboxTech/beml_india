@@ -3,51 +3,29 @@
     $header = new Header();
     $header->includeHeader('Index Page', '');
 ?>
+  <div class="container-fluid">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="public/images/building.jpg" alt="">
+            <div class="overlay-text">
+                <lable class="title-tag"><h1>BEML</h1></lable></br>
+                <lable>WE PROVIDES DEFENCE $ AEROSPACE</lable></br>
+                <lable>SINCE 1964</lable>
+            </div>
+        </div>
+        <div class="swiper-slide"><img src="public/images/building.jpg" alt="No Preview"></div>
     
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">  
-            <img class="d-block w-100" src="public/images/building.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="public/images/adv_img.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="public/images/building.jpg" alt="Third slide">
-            </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
-    <div class="container">
-
-    <div class="image-container">
-        <img src="public/images/building.jpg" alt="image">
-        <div class="overlay-text">
-            <lable>BEML</label></br>
-            <lable>WE PROVIDES DEFENCE $ AEROSPACE</label></br>
-            <lable>SINCE 1964</label>
+        <div class="swiper-pagination"></div>
+        <div class="autoplay-progress">
+        <svg viewBox="0 0 48 48">
+            <circle cx="24" cy="24" r="20"></circle>
+        </svg>
+        <span></span>
         </div>
     </div>
+  </div>
 
-    </div>
-
-    <script src="public/js/jquery-3.7.1.min.js"></script>
-    <script src="public/bootstrap/bootstrap.bundle.min.js"></script>
-
-    <script>
-        $(document).ready(function(){
-            $('.carousel').carousel();
-        });
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="public/js/slider.js"></script>
