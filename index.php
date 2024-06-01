@@ -9,7 +9,6 @@ $header->includeHeader('Index Page', '');
         <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="swiper-pagination"></div>
                     <img src="public/images/building.jpg" alt="">
                     <!-- img text -->
                     <div class="overlay-text container-fluid">
@@ -34,11 +33,7 @@ $header->includeHeader('Index Page', '');
                 <div class="swiper-slide"><img src="public/images/building.jpg" alt="No Preview"></div>
 
             </div>
-
-            <div class="line"></div>
-
-            <div class="image-items">
-            </div>
+            <div class="swiper-pagination"></div>
 
         </div>
     </div>
@@ -123,10 +118,26 @@ $header->includeHeader('Index Page', '');
             </div>
         </div>
     </div>
-    
+
     <!-- page 5 -->
     <div class="page-5">
-        
+
+    </div>
+
+    <!-- page 10 -->
+    <div class="page-10">
+        <div class="swiper mySwiperP">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="public/images/news1.png" alt="">
+                </div>
+                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
+                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
+                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
+                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
 
@@ -136,8 +147,5 @@ $header->includeHeader('Index Page', '');
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="public/js/slider.js"></script>
 
-<?php include_once ('footer.php');?>
-
+<?php include_once('footer.php'); ?>

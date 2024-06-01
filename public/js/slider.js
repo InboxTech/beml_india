@@ -21,3 +21,13 @@ var swiper = new Swiper(".mySwipersec", {
       clickable: true,
     }
   });
+
+  var swiper = new Swiper(".mySwiperP", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
