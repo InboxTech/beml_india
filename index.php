@@ -171,7 +171,6 @@
     <!-- items-6 -->
 
     <div class="items-6">
-
         <div class="business-articals2">
             <div class="business-title">  <h3> <span>-</span>Business Verticals<h3></div>
             <div class="desc-txt">
@@ -181,10 +180,27 @@
                     state-of-the-art military equipment.
                 </p>
             </div>
-
-
         </div>
+        <div class="itemslider-6">
+            <div class="swiper mySwipermaxx">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="public/images/train-1.1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/train-2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/train-3.png" alt=""></div>
 
+                    <div class="swiper-slide"><img src="public/images/train-1.1.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/train-2.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/train-3.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="nav-btn">
+                    <img  class="swiper-button-prev" src="public/images/left-arrow.png" alt=""></br>
+                    <img class="swiper-button-next" src="public/images/right-arrow.png" alt="">
+                    <div></div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- page 10 -->

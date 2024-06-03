@@ -141,7 +141,7 @@ nav .navbar-nav li a {
   object-fit: cover;
 }
 
-.main-image .swiper-pagination {
+/* .main-image .swiper-pagination {
   top: 15% !important;
   font-weight: 600;
   font-size: 60px;
@@ -149,7 +149,7 @@ nav .navbar-nav li a {
   padding: 10px;
   color: #fff !important;
   left: 80%;
-}
+} */
 
 /** carousel end*/
 
@@ -368,11 +368,18 @@ label h1 {
 /** items 5 end*/
 
 
-
 /** items 6 start*/
 
 .items-6 {
   padding: 50px;
+  background-image: url(../images/group_175.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  background-color: #101934;
+  color: #fff;
 }
 
 .items-6 .business-articals2 {
@@ -380,10 +387,31 @@ label h1 {
   justify-content: space-between;
 }
 
+.items-6 .desc-txt {
+  width: 40%;
+}
+
+
+
+.nav-btn {
+  height: 50px;
+  width: 100px;
+  margin-top: 10px;
+  position: inherit !important;
+}
+.nav-btn .swiper-button-next,.nav-btn .swiper-button-prev {
+  display: inherit ;
+  height: 70% !important;
+  width: 40%;
+}
+.nav-btn:nth-child(2) {
+  margin: 100px;
+}
+
+
+
 
 /** items 6 end*/
-
-
 
 /* page 10 */
 .page-10 .swiper-slide {
@@ -633,17 +661,12 @@ footer a {
 
 
 
-.maxx{
-  width: 50%;
-  height: 50%;
-}
-
-.maxx .swiper {
+.itemslider-6 .swiper {
   width: 100%;
   height: 100%;
 }
 
-.maxx .swiper-slide {
+.itemslider-6 .swiper-slide {
   text-align: center;
   font-size: 18px;
   background: #fff;
@@ -652,19 +675,13 @@ footer a {
   align-items: center;
 }
 
-.maxx .swiper-slide img {
+.itemslider-6 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.maxx .swiper-pagination {
-  top: 15% !important;
-  font-weight: 600;
-  font-size: 60px;
-  width: fit-content;
-  padding: 10px;
-  color: #fff !important;
-  left: 80%;
+.itemslider-6 .swiper-pagination {
+  position: inherit;
 }
