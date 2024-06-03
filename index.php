@@ -126,14 +126,13 @@
     <!-- items 5 -->
     <div class="itmems-5">
         <div class="business-verticals">
-            <label for="title"><h3>Business Verticals<h3></label>
-            <label for=""><h1>DEFENCE & AEROSPACE</h1></label>
-            <label for="">
+            <div class="business-title"> <h3> - Business Verticals<h3></div>
+            <div class="defence-txt">
+                <h1>DEFENCE & AEROSPACE</h1>
                 <p>Beign India's leading defence equipment manufactures, BEML Limited keeps the indian army and
-                 other defence forces abrests with state-of-the-art military equipment
+                other defence forces abrests with state-of-the-art military equipment
                 </p>
-            </label>
-
+            </div>
         </div>
     </div>
 </div>
