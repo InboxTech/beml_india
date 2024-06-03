@@ -31,3 +31,4 @@ var swiper = new Swiper(".mySwipersec", {
       clickable: true,
     },
   });
+
