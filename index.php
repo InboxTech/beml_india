@@ -1,7 +1,7 @@
 <?php
-    require_once('header.php');
-    $header = new Header();
-    $header->includeHeader('Index Page', '');
+require_once('header.php');
+$header = new Header();
+$header->includeHeader('Index Page', '');
 ?>
 <div class="container-fluid">
     <!-- this is carousel page 1 -->
@@ -44,12 +44,12 @@
 
             <div class="col-lg-6">
                 <div class="image-container">
-                    <div class="card-1">
+                    <div class="pop-1">
                         <img src="public/images/Vector.svg" alt="" class="img-fluid">
                         <div class="num">500+</div>
                         Completed Projects
                     </div>
-                    <div class="card-2">
+                    <div class="pop-2">
                         <img src="public/images/trophy.svg" alt="" class="img-fluid">
                         <div class="num">50+</div>
                         Awards Winning
@@ -121,17 +121,111 @@
     <!-- items 5 -->
     <div class="itmems-5">
         <div class="business-verticals">
-            <div class="business-title"> <h3> - Business Verticals<h3></div>
+            <div class="business-title">
+                <h3> - Business Verticals<h3>
+            </div>
             <div class="defence-txt">
                 <h1>DEFENCE & AEROSPACE</h1>
                 <p>Beign India's leading defence equipment manufactures, BEML Limited keeps the indian army and
-                other defence forces abrests with state-of-the-art military equipment
+                    other defence forces abrests with state-of-the-art military equipment
                 </p>
             </div>
         </div>
     </div>
+
+    <!-- items 9 -->
+    <div class="items-9">
+        <div class="col-5">
+            <div>
+                <h3>- Meet our Team</h3>
+                <h1>Our <br>
+                    experienced <br>
+                    experts
+                </h1>
+            </div>
+            <div class="card-1">
+                <img src="public/images/team1.png" alt="">
+
+                <div class="name-label"> 
+                    <div class="a">
+                        <h4>SHRI SHANTANU ROY</h4>
+                        <h5>Chairman & Managing Director</h5>
+                    </div>
+                    <div class="b">
+                        <img src="public/images/group-admin.png" alt="">
+                    </div>
+                    
+                </div>
+                <p>Shri Shantanu Roy assumed charge as Chairman & Managing Director at BEML Ltd.,
+                    w.e.f. 01.08.2023. Prior to assuming his present position,
+                    Shri Shantanu Roy was Director (Mining and Construction Business).
+                    He is a graduate in Electrical Engineering from NIT Raipur and an MBA in Financial Management.
+                    He is having more than 30 years of extensive experience in the capital goods sectors for Defence,
+                    Mining & Construction, Transportation, Transmission, Renewable and large power projects.
+                </p>
+            </div>
+        </div>
+        <div class="col-7">
+            <div class="card-2">
+                <div class="">
+                    <img src="public/images/team2.png">
+                </div>
+                <div class="">
+                    <div class="title">
+                        <p class=""><small class="text-body-secondary">CEO - FOUNDER</small></p>
+                        <h5 class="">Robert Fox</h5>
+                    </div>
+                    <div class="hr"></div>
+                    <p class="text">Sed ut perspiciatis unde omnis iste natus error
+                        sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam, eaque ipsa
+                        quae Nemo enim ipsam voluptatem quia…</p>
+                </div>
+            </div><br>
+            <div class="card-2">
+                <div class="">
+                    <img src="public/images/team3.png">
+                </div>
+                <div class="">
+                    <div class="title">
+                        <p class=""><small class="text-body-secondary">OFFICE MANAGER</small></p>
+                        <h5 class="">Jeny Fisher</h5>
+                    </div>
+                    <div class="hr"></div>
+                    <p class="text">Nemo enim ipsam voluptatem quia voluptas
+                        sit aspernatur aut odit aut fugit, sed quia
+                        consequuntur magni dolores eos qui ratione
+                        voluptatem sequ Sed ut perspiciatis unde…
+                    </p>
+                </div>
+            </div><br>
+            <div class="card-2">
+                <div class="">
+                    <img src="public/images/team4.png">
+                </div>
+                <div class="">
+                    <div class="title">
+                        <p class=""><small class="text-body-secondary">CHIEF MARKETING</small></p>
+                        <h5 class="">Guy Hawkins</h5>
+                    </div>
+                    <div class="hr"></div>
+                    <p class="text">Neque porro quisquam est, qui dolorem
+                        ipsumed ut perspiciatis unde omnis iste natus
+                        error sit voluptatem accusantium doloremque
+                        laudantium Sed ut perspiciatis unde omnis…
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- page 10 -->
     <div class="page-10">
+        <div class="d-flex justify-content-between">
+            <h3 class="col">- From Our Blog.</h3>
+            <h1 class="col">NEWS & EVENTS</h1>
+        </div>
         <div class="swiper mySwiperP">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
@@ -148,7 +242,7 @@
                 <div class="swiper-slide">
                     <div class="slide-content">
                         <div class="date-container"><b>02</b><br> Jun</div>
-                        <img src="public/images/news1.png" alt="">
+                        <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
                             <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
@@ -159,7 +253,7 @@
                 <div class="swiper-slide">
                     <div class="slide-content">
                         <div class="date-container"><b>03</b><br> Jun</div>
-                        <img src="public/images/news1.png" alt="">
+                        <img src="public/images/news3.png" alt="">
                         <div class="caption">
                             <h4>News Title 3</h4>
                             <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
@@ -169,21 +263,41 @@
                 </div>
                 <div class="swiper-slide">
                     <div class="slide-content">
-                        <div class="date-container"><b>04</b><br> Jun</div>
+                        <div class="date-container"><b>01</b><br> Jun</div>
                         <img src="public/images/news1.png" alt="">
-                        <div class="caption">
+                        <div class="caption row">
                             <h4>News Title 1</h4>
                             <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
-                <!-- Repeat for other slides -->
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="date-container"><b>02</b><br> Jun</div>
+                        <img src="public/images/news2.png" alt="">
+                        <div class="caption">
+                            <h4>News Title 2</h4>
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="date-container"><b>03</b><br> Jun</div>
+                        <img src="public/images/news3.png" alt="">
+                        <div class="caption">
+                            <h4>News Title 3</h4>
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="swiper-pagination"></div>
         </div>
-    </div>    
+    </div>
 </div>
 
 <?php include_once('footer.php'); ?>
-

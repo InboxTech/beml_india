@@ -1,11 +1,14 @@
 :root {
   --red-color : #B62A20;
+  
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Unbounded", sans-serif;
+
 }
 
 li {
@@ -192,13 +195,13 @@ label h1 {
 
 /** main image body */
 
-.page-2, .page-3, .page-4, .item-5, .page-6, .page-7 ,.page-10{
+.page-2, .page-3, .page-4, .itmems-5, .page-6, .page-7, .items-9 ,.page-10{
   padding: 10px 20px;
   margin: 50px;
 }
 /* page 2 */
 
-.page-2 h3, .page-3 h3, .page-4 h3, .page-5 h3{
+.page-2 h3, .page-3 h3, .page-4 h3, .page-5 h3, .items-9 h3, .page-10 h3{
   color: var(--red-color);
   padding-bottom: 50px;
 }
@@ -209,7 +212,7 @@ label h1 {
   object-fit: cover;
 }
 
-.card-1 img,.card-2 img{
+.pop-1 img,.pop-2 img{
   height: 20%;
   width: 28%;
 }
@@ -217,7 +220,7 @@ label h1 {
     font-size: 50px;
     font-weight: 500;
 }
-.card-1 {
+.pop-1 {
   position: absolute;
   top: -10px; 
   left: 430px; 
@@ -230,9 +233,9 @@ label h1 {
   border-radius: 0;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
 }
-.card-2 {
+.pop-2 {
     position: absolute;
     top: -10px; 
     left: 600px; 
@@ -245,7 +248,7 @@ label h1 {
     border-radius: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
   }
 .image-container {
   position: relative;
@@ -329,6 +332,43 @@ label h1 {
   color: var(--red-color);
 }
 /** items 5 end*/
+
+/** items 9*/
+.items-9{
+  display: flex;
+  background-color: #F6F6F6;
+}
+
+.items-9 .d-flex .svg{
+  height: 30px;
+  width: 30px;
+}
+.items-9 .desc{
+  width: fit-content;
+}
+.items-9 .card-1{
+  margin: 20px;
+}
+
+.items-9 .card-2{
+  width: 100%;
+  display: flex;
+  background-color: #ffffff;
+  padding-left: 0;
+}
+.items-9 .hr{
+  width: 100%;
+  border: 1px solid #DFE1E7;
+}
+
+.items-9 .card-2 .title{
+  margin: 20px;
+  margin-left: 30px;
+}
+.items-9 .card-2 .text{
+  margin: 20px;
+  margin-left: 30px;
+}
 
 /* page 10 */
 .page-10 .swiper-slide {
@@ -574,4 +614,18 @@ footer a {
   display: flex;
   justify-content: end;
   padding: 10px;
+}
+
+
+.name-label {
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 50px;
+  margin: 20px;
+  align-items: center;
+}
+
+.name-label img {
+  position: relative;
 }
