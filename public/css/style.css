@@ -1,3 +1,7 @@
+:root {
+  --red-color : #B62A20;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +28,7 @@ li {
 }
 
 .fist-row span {
-  color: red;
+  color: var(--red-color);
 }
 
 .second-row {
@@ -100,9 +104,10 @@ nav .navbar-nav li a {
 }
 
 .navbar-nav li a:hover {
-  color: red;
+  color: var(--red-color);
 }
 /** nav bar end*/
+
 
 /** carousel start*/
 
@@ -187,16 +192,14 @@ label h1 {
 
 /** main image body */
 
-.title-tag {
-  color: #b62a20;
-}
-/* page 2 */
-.page-2, .page-3, .page-4, .page-5, .page-6, .page-7 ,.page-10{
+.page-2, .page-3, .page-4, .item-5, .page-6, .page-7 ,.page-10{
   padding: 10px 20px;
   margin: 50px;
 }
+/* page 2 */
+
 .page-2 h3, .page-3 h3, .page-4 h3, .page-5 h3{
-  color: #b62a20;
+  color: var(--red-color);
   padding-bottom: 50px;
 }
 
@@ -216,8 +219,8 @@ label h1 {
 }
 .card-1 {
   position: absolute;
-  top: -10px; /* Adjust as necessary */
-  left: 430px; /* Adjust as necessary */
+  top: -10px; 
+  left: 430px; 
   z-index: 10;
   background-color: #101934;
   color: #fff;
@@ -231,10 +234,10 @@ label h1 {
 }
 .card-2 {
     position: absolute;
-    top: -10px; /* Adjust as necessary */
-    left: 600px; /* Adjust as necessary */
+    top: -10px; 
+    left: 600px; 
     z-index: 10;
-    background-color: #B62A20;
+    background-color:var(--red-color);
     color: #fff;
     padding: 10px;
     height: 200px;
@@ -279,7 +282,7 @@ label h1 {
     border-radius: 50%;
     background-color: #FFFFFF;
     border: none;
-    color: #B62A20;
+    color: var(--red-color);
     font-size: 16px;
     display: flex;
     justify-content: center;
@@ -303,10 +306,29 @@ label h1 {
 .page-4 h1{
     font-size: 50px;
     font-weight: 700;
-    color: #B62A20;
+    color: var(--red-color);
 }
 
-/* page 5 */
+/** items 5 start*/
+
+
+.itmems-5 {
+  display: flex;
+  flex-direction: column;
+}
+.itmems-5 .business-verticals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itmems-5 .defence-txt {
+  width: 40%;
+}
+
+.itmems-5 .business-title {
+  color: var(--red-color);
+}
+/** items 5 end*/
 
 /* page 10 */
 .page-10 .swiper-slide {
@@ -371,16 +393,13 @@ label h1 {
   margin-top: 20px;
 }
 
-
   /** main image body start */
 
   .title-tag {
-    color: red;
-
+    color: var(--red-color);
   }
 
   /** main image body end*/
-
 
 /** footer area start*/
 
@@ -404,7 +423,7 @@ footer a {
 }
 
 .bussiness-details ul li{
-    color: red;
+    color: var(--red-color);
     font-weight: bold;
 }
 
@@ -417,7 +436,7 @@ footer a {
 /**send email start*/
 
 .send-offers-tag {
-    background-color: rgb(146, 9, 9);
+    background-color:var(--red-color);
     color: white;
     margin: 10px;
     padding: 30px;
@@ -440,11 +459,11 @@ footer a {
     left: 170px;
     border:transparent;
     background-color: transparent;
-    color: red;
+    color: var(--red-color);
 }
 
 .send-mail-box input::placeholder {
-    color: red; 
+    color: var(--red-color); 
   }
 
 .send-mail-box input:focus{
@@ -543,7 +562,7 @@ footer a {
 /** footer area end*/
   
 .fa-brands:hover {
-    color: red;
+    color: var(--red-color);
 }
 
 /** for testing*/
