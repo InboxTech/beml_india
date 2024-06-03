@@ -136,14 +136,15 @@ nav .navbar-nav li a {
   object-fit: cover;
 }
 
-/* .swiper-pagination {
-  top: -10px !important;
+.main-image .swiper-pagination {
+  top: 15% !important;
   font-weight: 600;
   font-size: 60px;
   width: fit-content;
   padding: 10px;
   color: #fff !important;
-} */
+  left: 80%;
+}
 
 /** carousel end*/
 
@@ -308,11 +309,65 @@ label h1 {
 /* page 5 */
 
 /* page 10 */
+.page-10 .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+
+}
+
+.page-10 .date-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FFFFFF;
+  color: #010101;
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+}
+
+.page-10 .date-container b{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.page-10 .caption {
+  margin-top: 10px;
+}
+
+.page-10 .caption p {
+  margin: 5px 0;
+}
+
+.page-10 .caption a {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.page-10 .caption a:hover {
+  text-decoration: underline;
+}
+
+.page-10 .button img{
+  height: 10px;
+  width: 10px;
+  display: inline-flex;
+  margin-left: 8px;
+}
+
 .page-10 .swiper-pagination {
-  position: relative !important;;
+  position:relative !important;
   text-align: center;
   transition: .3s opacity;
   transform: translate3d(0, 0, 0);
+  z-index: 10;
   margin-top: 20px;
 }
 

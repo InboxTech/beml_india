@@ -129,24 +129,55 @@ $header->includeHeader('Index Page', '');
         <div class="swiper mySwiperP">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <img src="public/images/news1.png" alt="">
+                    <div class="slide-content">
+                        <div class="date-container"><b>01</b><br> Jun</div>
+                        <img src="public/images/news1.png" alt="">
+                        <div class="caption row">
+                            <h4>News Title 1</h4>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
-                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
-                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
-                <div class="swiper-slide"><img src="public/images/news1.png" alt=""></div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="date-container"><b>02</b><br> Jun</div>
+                        <img src="public/images/news1.png" alt="">
+                        <div class="caption">
+                            <h4>News Title 2</h4>
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="date-container"><b>03</b><br> Jun</div>
+                        <img src="public/images/news1.png" alt="">
+                        <div class="caption">
+                            <h4>News Title 3</h4>
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content">
+                        <div class="date-container"><b>04</b><br> Jun</div>
+                        <img src="public/images/news1.png" alt="">
+                        <div class="caption">
+                            <h4>News Title 1</h4>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat for other slides -->
             </div>
             <div class="swiper-pagination"></div>
         </div>
     </div>
-
-
 </div>
-
-
-
-
-
 
 <?php include_once('footer.php'); ?>
 
