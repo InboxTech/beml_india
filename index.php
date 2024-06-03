@@ -37,6 +37,8 @@
 
         </div>
     </div>
+
+
     <!-- page 2 -->
     <div class="page-2">
         <div class="row">
@@ -61,9 +63,12 @@
                 <h1 class="pb-2">BEML LIMITED</h1>
                 <h4 class="pb-2">Building Aatmanirbhar Bharat</h4>
                 <div data-bs-spy="scroll" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-                    <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt. Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
-                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its diverse business portfolio, the company has been able to achieve a turnover of more than Rs. 4,300 Crs.</p>
-                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking which manufactures a variety of heavy equipment.</p>
+                    <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt.
+                        Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
+                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its diverse business 
+                        portfolio, the company has been able to achieve a turnover of more than Rs. 4,300 Crs.</p>
+                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking 
+                        which manufactures a variety of heavy equipment.</p>
                     <button class="btn btn-outline-danger">Explore Our Projects</button>
                 </div>
             </div>
@@ -119,17 +124,69 @@
         </div>
     </div>
     <!-- items 5 -->
-    <div class="itmems-5">
-        <div class="business-verticals">
-            <div class="business-title"> <h3> - Business Verticals<h3></div>
-            <div class="defence-txt">
+    <div class="items-5">
+        <div class="business-articals">
+            <div class="business-title">  <h3> <span>-</span> Business Verticals<h3></div>
+            <div class="desc-txt">
                 <h1>DEFENCE & AEROSPACE</h1>
                 <p>Beign India's leading defence equipment manufactures, BEML Limited keeps the indian army and
                 other defence forces abrests with state-of-the-art military equipment
                 </p>
             </div>
         </div>
+        <div class="allcard">
+            <div class="card">
+                <div class="images"><img src="public/images/monster-truck.png" alt=""></div>
+                <div class="name"><h3>ABVP</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
+                    test defence equipment and vehicles.
+                </div>
+                <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
+            </div>
+            <div class="card">
+                <div class="images"><img src="public/images/tank_1.png" alt=""></div>
+                <div class="name"><h3>ARRV</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
+                    test defence equipment and vehicles.
+                </div>
+                <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
+            </div>
+            <div class="card">
+                <div class="images"><img src="public/images/Group.png" alt=""></div>
+                <div class="name"><h3>SARVATRA BRIDGING SYSTEM</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
+                    test defence equipment and vehicles.
+                </div>
+                <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
+            </div>
+        </div>        
     </div>
+
+    <!-- items-6 -->
+
+    <div class="items-6">
+
+        <div class="business-articals2">
+            <div class="business-title">  <h3> <span>-</span>Business Verticals<h3></div>
+            <div class="desc-txt">
+                <h1>RAIL & METRO</h1>
+                <p>Being India's leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with 
+                    state-of-the-art military equipment.
+                </p>
+            </div>
+
+
+        </div>
+
+    </div>
+
     <!-- page 10 -->
     <div class="page-10">
         <div class="swiper mySwiperP">
@@ -140,7 +197,8 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to 
+                                Develop Indigenous Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -151,7 +209,8 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously
+                                 developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -162,7 +221,8 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption">
                             <h4>News Title 3</h4>
-                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat 
+                                SleeperTrainset Carbody Structure</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -173,7 +233,8 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop 
+                                Indigenous Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>

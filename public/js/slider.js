@@ -32,3 +32,13 @@ var swiper = new Swiper(".mySwipersec", {
     },
   });
 
+  var swiper = new Swiper(".mySwipersecee", {
+    slidesPerView: 6,
+    spaceBetween: 30,
+    pagination: {
+      el: ".maxx .swiper-pagination",
+      clickable: true,
+    },
+  });
+
+

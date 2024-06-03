@@ -192,7 +192,7 @@ label h1 {
 
 /** main image body */
 
-.page-2, .page-3, .page-4, .item-5, .page-6, .page-7 ,.page-10{
+.page-2, .page-3, .page-4, .itmes-5, .page-6, .page-7 ,.page-10{
   padding: 10px 20px;
   margin: 50px;
 }
@@ -310,25 +310,80 @@ label h1 {
 }
 
 /** items 5 start*/
-
-
-.itmems-5 {
+.items-5 {
   display: flex;
   flex-direction: column;
+  padding: 50px;
 }
-.itmems-5 .business-verticals {
+
+.items-5 .business-title {
+  color: var(--red-color);
+}
+
+.items-5 .business-articals {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.business-articals h3 {
+  font-weight: bold;
+}
+
+.business-articals .desc-txt {
+  width: 35%;
+}
+
+.items-5 .defence-txt {
+  width: 40%;
+}
+.allcard {
+  display: flex;
+  justify-content: center;  
+  gap:20px;
+}
+.items-5 .card {
+  padding: 25px;
+  width: 25%;
+}
+
+.card .images{
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.card h3 {
+  font-weight: bold;
+}
+
+.card .learn-btn {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.card .learn-btn img {
+  cursor: pointer;
+}
+
+/** items 5 end*/
+
+
+
+/** items 6 start*/
+
+.items-6 {
+  padding: 50px;
+}
+
+.items-6 .business-articals2 {
   display: flex;
   justify-content: space-between;
 }
 
-.itmems-5 .defence-txt {
-  width: 40%;
-}
 
-.itmems-5 .business-title {
-  color: var(--red-color);
-}
-/** items 5 end*/
+/** items 6 end*/
+
+
 
 /* page 10 */
 .page-10 .swiper-slide {
@@ -336,7 +391,6 @@ label h1 {
   flex-direction: column;
   align-items: center;
   text-align: left;
-
 }
 
 .page-10 .date-container {
@@ -574,4 +628,43 @@ footer a {
   display: flex;
   justify-content: end;
   padding: 10px;
+}
+
+
+
+
+.maxx{
+  width: 50%;
+  height: 50%;
+}
+
+.maxx .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.maxx .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maxx .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.maxx .swiper-pagination {
+  top: 15% !important;
+  font-weight: 600;
+  font-size: 60px;
+  width: fit-content;
+  padding: 10px;
+  color: #fff !important;
+  left: 80%;
 }
