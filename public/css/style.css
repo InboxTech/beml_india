@@ -391,8 +391,6 @@ label h1 {
   width: 40%;
 }
 
-
-
 .nav-btn {
   height: 50px;
   width: 100px;
@@ -409,9 +407,85 @@ label h1 {
 }
 
 
+/** items - 6 -slider */
+.itemslider-6 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.itemslider-6 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemslider-6 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemslider-6 .swiper-pagination {
+  position: inherit;
+}
 
 
 /** items 6 end*/
+
+
+/** items 7 start*/
+
+.items-7 {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.items-7-txt h3 {
+  color: var(--red-color);
+}
+
+.items-7-txt h2 {
+  font-weight: bold;
+}
+
+.txt-7 {
+  width: 70%;
+}
+
+
+
+.itemslider-7 .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.itemslider-7 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemslider-7 .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itemslider-7 .swiper-pagination {
+  position: inherit;
+}
+
+
+/** items 7 end*/
 
 /* page 10 */
 .page-10 .swiper-slide {
@@ -656,32 +730,4 @@ footer a {
   display: flex;
   justify-content: end;
   padding: 10px;
-}
-
-
-
-
-.itemslider-6 .swiper {
-  width: 100%;
-  height: 100%;
-}
-
-.itemslider-6 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.itemslider-6 .swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.itemslider-6 .swiper-pagination {
-  position: inherit;
 }

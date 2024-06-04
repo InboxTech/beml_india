@@ -203,6 +203,34 @@
         </div>
     </div>
 
+    <div class="items-7">
+        <div class="items-7-txt">
+            <h3> <span> - </span> Meet Our Clients<h3>
+            <h2>THEY BELIEVE IN US</h2>
+            <div class="txt-7">
+                <p>
+                    Being India’s leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art military equipment.
+                </p>
+                <p>
+                    Being India’s leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art military equipment.  
+                </p>
+            </div>
+                <a href="#" ><img src="public/images/view_all_btn.png" alt=""></a>
+        </div>
+
+        <div class="itemslider-7">
+            <div class="swiper mySwiper4">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- page 10 -->
     <div class="page-10">
         <div class="swiper mySwiperP">
