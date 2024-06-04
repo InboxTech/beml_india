@@ -329,6 +329,10 @@ label h1 {
 background: url(../images/bg_i8.png);
 color: #FFFFFF;
 width: fit-content;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
 }
 
 .items-8 .top{
@@ -341,10 +345,11 @@ width: fit-content;
   margin-right: 50px;
 }
 .items-8 .main img{
- width: 100%;
+ width: 80%;
 }
 .items-8 .bottom{
   display: flex;
+  gap: 50px;
 }
 
 /** items 9*/

@@ -294,7 +294,8 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous 
+                                Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -305,7 +306,8 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 
+                                1500 HP Engine by BEML for Main Battle Tank</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -327,7 +329,8 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous Train Control Management System (i-TCMS)</p>
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous 
+                                Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
@@ -338,7 +341,8 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed 
+                                Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
