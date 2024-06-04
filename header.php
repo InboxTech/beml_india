@@ -46,7 +46,7 @@ class Header {
 
                 <div class="third-row"> 
                     <div class="logo"> <img src="public/images/logo_beml.png"></div>
-                    <div class="prduct-btn"><button div class="btn btn-danger">Browse Product > </button></div>
+                    <div class="prduct-btn"><a href="#"><img src="public/images/brow_btn.png"></a></div>
                     <div class="search-bar"><input type="text" name="search" placeholder="Search Here..."><img src="public/images/search.png"></div>
                     <div class="adv-image"><img src="public/images/adv_img.png"></div>
                     <div class="languages">Language<img src="public/images/down_arrow.png"><img src="public/images/flag.webp"></div>
