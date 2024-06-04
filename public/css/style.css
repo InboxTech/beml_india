@@ -192,7 +192,7 @@ label h1 {
 
 /** main image body */
 
-.page-2, .page-3, .page-4, .itmes-5, .page-6, .page-7 ,.page-10{
+.page-2, .page-3, .page-4, .itmes-5, .items-7, .page-6, .page-7 ,.page-10{
   padding: 10px 20px;
   margin: 50px;
 }
@@ -377,7 +377,7 @@ label h1 {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 80vh;
+  /* height: 80vh; */
   background-color: #101934;
   color: #fff;
 }
@@ -475,8 +475,8 @@ label h1 {
 
 .itemslider-7 .swiper-slide img {
   display: block;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 5%;
   object-fit: cover;
 }
 

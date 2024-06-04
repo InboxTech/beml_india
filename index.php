@@ -204,7 +204,7 @@
     </div>
 
     <div class="items-7">
-        <div class="items-7-txt">
+        <div class="items-7-txt col-6">
             <h3> <span> - </span> Meet Our Clients<h3>
             <h2>THEY BELIEVE IN US</h2>
             <div class="txt-7">
@@ -220,9 +220,11 @@
                 <a href="#" ><img src="public/images/view_all_btn.png" alt=""></a>
         </div>
 
-        <div class="itemslider-7">
+        <div class="itemslider-7 col-6">
             <div class="swiper mySwiper4">
                 <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
+                    <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
                     <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
                     <div class="swiper-slide"><img src="public/images/component.png" alt=""></div>
                 </div>
