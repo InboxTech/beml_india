@@ -150,12 +150,24 @@ nav .navbar-nav li a {
   top: 15% !important;
   font-weight: 600;
   font-size: 60px;
-  width: fit-content;
+  width: 15%;
+  height: 10%;
   padding: 10px;
   color: #fff !important;
   left: 80%;
 }
 
+.explor-btn {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  margin: 20px;
+  width: 35px;
+}
+ .img1{
+  width: 5%; 
+  padding: 20px;
+}
 /** carousel end*/
 
 .image-container {
@@ -171,7 +183,7 @@ nav .navbar-nav li a {
 
 .overlay-text {
   position: absolute;
-  top: 25%;
+  top: 0;
   float: left;
   color: #fff;
   padding: 10px 50px !important;
@@ -192,7 +204,8 @@ label h1 {
 }
 .line {
   border: 1px solid white !important;
-  margin-top: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /** main image body */
@@ -640,13 +653,6 @@ footer a {
 .test {
   background-color: red;
 }
-
-.explor-btn {
-  display: flex;
-  justify-content: end;
-  padding: 10px;
-}
-
 
 .name-label {
   display: flex;

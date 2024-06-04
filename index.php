@@ -12,26 +12,58 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/building.jpg" alt="">
                     <!-- img text -->
                     <div class="overlay-text container-fluid">
-                        <label><img src="public/images/rpund 2.png" alt=""></label><br>
-                        <label>
-                            <h1>BEML</h1>
-                        </label></br>
-                        <label>WE PROVIDES <span class="title-tag"> DEFENCE & AEROSPACE</span></label></br>
-                        <label>SINCE 1964</label>
-                        <div class="container-fluid">
-                            <div class="line"></div>
+                        <div>
+                            <label><img src="public/images/rpund 2.png" alt=""></label><br>
+                            <label>
+                                <h1>BEML</h1>
+                            </label></br>
+                            <label>WE PROVIDES <span class="title-tag"> DEFENCE & AEROSPACE</span></label></br>
+                            <label>SINCE 1964</label>
+                        </div>
+                        <div class="line"></div>
+
+                        <div class="">
                             <div class="row">
-                                <div class="explor-btn">
-                                    <button class="btn btn-md btn-outline-light">
-                                        Explore Our Projects
-                                    </button>
+                                <div class="explor-btn d-flex ">
+                                    <div>
+                                        <a href="#"><img src="public/images/rating.svg" class="img1"></a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="public/images/btn.svg" class="img1"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="swiper-slide"><img src="public/images/building.jpg" alt="No Preview"></div>
+                <div class="swiper-slide">
+                    <img src="public/images/building.jpg" alt="">
+                    <!-- img text -->
+                    <div class="overlay-text container-fluid">
+                        <div>
+                            <label><img src="public/images/rpund 2.png" alt=""></label><br>
+                            <label>
+                                <h1>BEML</h1>
+                            </label></br>
+                            <label>WE PROVIDES <span class="title-tag"> DEFENCE & AEROSPACE</span></label></br>
+                            <label>SINCE 1964</label>
+                        </div>
+                        <div class="line"></div>
 
+                        <div class="">
+                            <div class="row">
+                                <div class="explor-btn d-flex ">
+                                    <div>
+                                        <a href="#"><img src="public/images/rating.svg" class="img1"></a>
+                                    </div>
+                                    <div>
+                                        <a href="#"><img src="public/images/btn.svg" class="img1"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="swiper-pagination"></div>
 
@@ -40,7 +72,7 @@ $header->includeHeader('Index Page', '');
     <!-- page 2 -->
     <div class="page-2">
         <div class="row">
-            <h3>- Who We Are</h3>
+            <h3><img src="public/images/Line.svg" alt=""> Who We Are</h3>
 
             <div class="col-lg-6">
                 <div class="image-container">
@@ -72,7 +104,7 @@ $header->includeHeader('Index Page', '');
     <!-- page 3 -->
     <div class="page-3">
         <div class="d-flex justify-content-between">
-            <h3 class="col">- Business Verticals</h3>
+            <h3 class="col"><img src="public/images/Line.svg" alt=""> Business Verticals</h3>
             <h1 class="col">BEML OFFERS QUALITY PRODUCTS</h1>
         </div>
         <div class="d-flex">
@@ -122,7 +154,7 @@ $header->includeHeader('Index Page', '');
     <div class="itmems-5">
         <div class="business-verticals">
             <div class="business-title">
-                <h3> - Business Verticals<h3>
+                <h3><img src="public/images/Line.svg" alt=""> Business Verticals<h3>
             </div>
             <div class="defence-txt">
                 <h1>DEFENCE & AEROSPACE</h1>
@@ -136,11 +168,11 @@ $header->includeHeader('Index Page', '');
     <!-- items 8 -->
     <div class="items-8">
         <div class="top">
-            <h3>-360 View</h3>
+            <h3><img src="public/images/Line2.svg" alt=""> 360 View</h3>
             <div class="">
                 <h1>DEFENCE & AEROSPACE</h1>
-                <p>Being India’s leading defence equipment manufacturer, 
-                    BEML Limited keeps the Indian Army and other defence forces abreast with 
+                <p>Being India’s leading defence equipment manufacturer,
+                    BEML Limited keeps the Indian Army and other defence forces abreast with
                     state-of-the-art military equipment.
                 </p>
             </div>
@@ -151,7 +183,9 @@ $header->includeHeader('Index Page', '');
         <div class="bottom">
             <div class="col-4">
                 <ul>
-                    <li class="m-2 my-4"><h5>OPENCAST MINING</h5></li>
+                    <li class="m-2 my-4">
+                        <h5>OPENCAST MINING</h5>
+                    </li>
                     <li class="m-2"><img src="public/images/o1.png" class="me-2"> BH205E </li>
                     <li class="m-2"><img src="public/images/o2.png" class="me-2"> BE1800D </li>
                     <li class="m-2"><img src="public/images/o3.png" class="me-2"> BE1000-1 </li>
@@ -160,7 +194,9 @@ $header->includeHeader('Index Page', '');
             </div>
             <div class="col-4">
                 <ul>
-                    <li class="m-2 my-4"><h5>CONSTRUCTION</h5></li>
+                    <li class="m-2 my-4">
+                        <h5>CONSTRUCTION</h5>
+                    </li>
                     <li class="m-2"><img src="public/images/c1.png" class="me-2"> BG605I </li>
                     <li class="m-2"><img src="public/images/c2.png" class="me-2"> BG405A </li>
                     <li class="m-2"><img src="public/images/c3.png" class="me-2"> BE300LC </li>
@@ -168,11 +204,13 @@ $header->includeHeader('Index Page', '');
             </div>
             <div class="col-4">
                 <ul>
-                    <li class="m-2 my-4"><h5>UNDERGROUND MINING</h5></li>
+                    <li class="m-2 my-4">
+                        <h5>UNDERGROUND MINING</h5>
+                    </li>
                     <li class="m-2"><img src="public/images/u1.png" class="me-2"> Mine Locomotive 12 T </li>
                     <li class="m-2"><img src="public/images/u2.png" class="me-2"> Granby Car 7.5 T </li>
                     <li class="m-2"><img src="public/images/u3.png" class="me-2"> Granby Car 5.4 T </li>
-                    
+
                 </ul>
             </div>
         </div>
@@ -183,7 +221,7 @@ $header->includeHeader('Index Page', '');
     <div class="items-9">
         <div class="col-5">
             <div>
-                <h3>- Meet our Team</h3>
+                <h3><img src="public/images/Line.svg" alt=""> Meet our Team</h3>
                 <h1>Our <br>
                     experienced <br>
                     experts
@@ -283,7 +321,7 @@ $header->includeHeader('Index Page', '');
     <!-- page 10 -->
     <div class="page-10">
         <div class="d-flex justify-content-between">
-            <h3 class="col">- From Our Blog.</h3>
+            <h3 class="col"><img src="public/images/Line.svg" alt=""> From Our Blog.</h3>
             <h1 class="col">NEWS & EVENTS</h1>
         </div>
         <div class="swiper mySwiperP">
@@ -294,7 +332,7 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous 
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous
                                 Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
@@ -306,7 +344,7 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype 
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype
                                 1500 HP Engine by BEML for Main Battle Tank</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
@@ -329,7 +367,7 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous 
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous
                                 Train Control Management System (i-TCMS)</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
@@ -341,7 +379,7 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed 
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed
                                 Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
                             <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
