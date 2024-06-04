@@ -115,6 +115,7 @@
             <div class="swiper-pagination"></div>
         </div>
       
+        <div class="line"> </div>
         <div class="copy-right">
             <div class="fisrttcolumn">
                 @ Copyright 2022 BEML LIMITED. All Rights Reserved
