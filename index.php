@@ -93,9 +93,13 @@ $header->includeHeader('Index Page', '');
                 <h1 class="pb-2">BEML LIMITED</h1>
                 <h4 class="pb-2">Building Aatmanirbhar Bharat</h4>
                 <div data-bs-spy="scroll" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-                    <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt. Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
-                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its diverse business portfolio, the company has been able to achieve a turnover of more than Rs. 4,300 Crs.</p>
-                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking which manufactures a variety of heavy equipment.</p>
+                    <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt. Of India, plays a pivotal
+                        role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
+                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its
+                        diverse business portfolio, the company has been able to achieve a turnover of more than Rs.
+                        4,300 Crs.</p>
+                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking which
+                        manufactures a variety of heavy equipment.</p>
                     <a href=""><img src="public/images/button.svg" alt=""></a>
                 </div>
             </div>
@@ -334,7 +338,8 @@ $header->includeHeader('Index Page', '');
                             <h4>News Title 1</h4>
                             <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous
                                 Train Control Management System (i-TCMS)</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -344,9 +349,11 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news2.png" alt="">
                         <div class="caption">
                             <h4>News Title 2</h4>
-                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed Prototype
+                            <p>Defence Secretary inaugurates test firing of India’s first indigenously developed
+                                Prototype
                                 1500 HP Engine by BEML for Main Battle Tank</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -356,8 +363,10 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news3.png" alt="">
                         <div class="caption">
                             <h4>News Title 3</h4>
-                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat
+                                SleeperTrainset Carbody Structure</p>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -369,7 +378,8 @@ $header->includeHeader('Index Page', '');
                             <h4>News Title 1</h4>
                             <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop Indigenous
                                 Train Control Management System (i-TCMS)</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -381,7 +391,8 @@ $header->includeHeader('Index Page', '');
                             <h4>News Title 2</h4>
                             <p>Defence Secretary inaugurates test firing of India’s first indigenously developed
                                 Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -391,8 +402,10 @@ $header->includeHeader('Index Page', '');
                         <img src="public/images/news3.png" alt="">
                         <div class="caption">
                             <h4>News Title 3</h4>
-                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat SleeperTrainset Carbody Structure</p>
-                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat
+                                SleeperTrainset Carbody Structure</p>
+                            <a href="http://example.com" class="button">Read more<img
+                                    src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
