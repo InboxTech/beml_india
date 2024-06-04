@@ -196,8 +196,7 @@ label h1 {
 }
 
 /** main image body */
-
-.page-2, .page-3, .page-4, .itmems-5, .page-6, .page-7, .items-9 ,.page-10{
+.page-2, .page-3, .page-4, .itmems-5, .page-6, .page-7, .items-8, .items-9 ,.page-10{
   padding: 10px 20px;
   margin: 50px;
 }
@@ -324,6 +323,29 @@ label h1 {
   color: var(--red-color);
 }
 /** items 5 end*/
+
+/** items 8*/
+.items-8{
+background: url(../images/bg_i8.png);
+color: #FFFFFF;
+width: fit-content;
+}
+
+.items-8 .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-8 .top div{
+  width: 50%;
+  margin-right: 50px;
+}
+.items-8 .main img{
+ width: 100%;
+}
+.items-8 .bottom{
+  display: flex;
+}
 
 /** items 9*/
 .items-9{

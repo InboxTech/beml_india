@@ -133,6 +133,52 @@ $header->includeHeader('Index Page', '');
         </div>
     </div>
 
+    <!-- items 8 -->
+    <div class="items-8">
+        <div class="top">
+            <h3>-360 View</h3>
+            <div class="">
+                <h1>DEFENCE & AEROSPACE</h1>
+                <p>Being India’s leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with 
+                    state-of-the-art military equipment.
+                </p>
+            </div>
+        </div>
+        <div class="main">
+            <img src="public/images/main.png" alt="">
+        </div>
+        <div class="bottom">
+            <div class="col-4">
+                <ul>
+                    <li class="m-2 my-4"><h5>OPENCAST MINING</h5></li>
+                    <li class="m-2"><img src="public/images/o1.png" class="me-2"> BH205E </li>
+                    <li class="m-2"><img src="public/images/o2.png" class="me-2"> BE1800D </li>
+                    <li class="m-2"><img src="public/images/o3.png" class="me-2"> BE1000-1 </li>
+
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li class="m-2 my-4"><h5>CONSTRUCTION</h5></li>
+                    <li class="m-2"><img src="public/images/c1.png" class="me-2"> BG605I </li>
+                    <li class="m-2"><img src="public/images/c2.png" class="me-2"> BG405A </li>
+                    <li class="m-2"><img src="public/images/c3.png" class="me-2"> BE300LC </li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li class="m-2 my-4"><h5>UNDERGROUND MINING</h5></li>
+                    <li class="m-2"><img src="public/images/u1.png" class="me-2"> Mine Locomotive 12 T </li>
+                    <li class="m-2"><img src="public/images/u2.png" class="me-2"> Granby Car 7.5 T </li>
+                    <li class="m-2"><img src="public/images/u3.png" class="me-2"> Granby Car 5.4 T </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
     <!-- items 9 -->
     <div class="items-9">
         <div class="col-5">
@@ -146,14 +192,14 @@ $header->includeHeader('Index Page', '');
             <div class="card-1">
                 <img src="public/images/team1.png" alt="">
 
-                <div class="name-label"> 
+                <div class="name-label">
                     <div class="a">
                         <h5>SHRI SHANTANU ROY</h5>
                         <p>Chairman & Managing Director</p>
                     </div>
                     <div class="b">
                         <img src="public/images/group-admin.png" alt="">
-                    </div>                    
+                    </div>
                 </div>
                 <p>Shri Shantanu Roy assumed charge as Chairman & Managing Director at BEML Ltd.,
                     w.e.f. 01.08.2023. Prior to assuming his present position,
