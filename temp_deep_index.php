@@ -64,12 +64,10 @@
                 <h4 class="pb-2">Building Aatmanirbhar Bharat</h4>
                 <div data-bs-spy="scroll" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                     <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt.
-                        Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining
-                        and Infrastructure.</p>
-                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its
-                        diverse business
+                        Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
+                    <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its diverse business 
                         portfolio, the company has been able to achieve a turnover of more than Rs. 4,300 Crs.</p>
-                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking
+                    <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking 
                         which manufactures a variety of heavy equipment.</p>
                     <button class="btn btn-outline-danger">Explore Our Projects</button>
                 </div>
@@ -128,67 +126,57 @@
     <!-- items 5 -->
     <div class="items-5">
         <div class="business-articals">
-            <div class="business-title">
-                <h3> <span>-</span> Business Verticals<h3>
-            </div>
+            <div class="business-title">  <h3> <span>-</span> Business Verticals<h3></div>
             <div class="desc-txt">
                 <h1>DEFENCE & AEROSPACE</h1>
                 <p>Beign India's leading defence equipment manufactures, BEML Limited keeps the indian army and
-                    other defence forces abrests with state-of-the-art military equipment
+                other defence forces abrests with state-of-the-art military equipment
                 </p>
             </div>
         </div>
         <div class="allcard">
             <div class="card">
                 <div class="images"><img src="public/images/monster-truck.png" alt=""></div>
-                <div class="name">
-                    <h3>ABVP</h3>
-                </div>
-                <div class="description">BEML plays a stellar role in the country's
-                    Integrated Guided Missile Development Project by supplying ground support vehicles.
-                    The company has also created a world class test track at its KGF Complex to
+                <div class="name"><h3>ABVP</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
                     test defence equipment and vehicles.
                 </div>
                 <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
             </div>
             <div class="card">
                 <div class="images"><img src="public/images/tank_1.png" alt=""></div>
-                <div class="name">
-                    <h3>ARRV</h3>
-                </div>
-                <div class="description">BEML plays a stellar role in the country's
-                    Integrated Guided Missile Development Project by supplying ground support vehicles.
-                    The company has also created a world class test track at its KGF Complex to
+                <div class="name"><h3>ARRV</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
                     test defence equipment and vehicles.
                 </div>
                 <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
             </div>
             <div class="card">
                 <div class="images"><img src="public/images/Group.png" alt=""></div>
-                <div class="name">
-                    <h3>SARVATRA BRIDGING SYSTEM</h3>
-                </div>
-                <div class="description">BEML plays a stellar role in the country's
-                    Integrated Guided Missile Development Project by supplying ground support vehicles.
-                    The company has also created a world class test track at its KGF Complex to
+                <div class="name"><h3>SARVATRA BRIDGING SYSTEM</h3></div>
+                <div class="description">BEML plays a stellar role in the country's 
+                    Integrated Guided Missile Development Project by supplying ground support vehicles. 
+                    The company has also created a world class test track at its KGF Complex to 
                     test defence equipment and vehicles.
                 </div>
                 <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
             </div>
-        </div>
+        </div>        
     </div>
 
     <!-- items-6 -->
 
     <div class="items-6">
         <div class="business-articals2">
-            <div class="business-title">
-                <h3> <span>-</span>Business Verticals<h3>
-            </div>
+            <div class="business-title">  <h3> <span>-</span>Business Verticals<h3></div>
             <div class="desc-txt">
                 <h1>RAIL & METRO</h1>
-                <p>Being India's leading defence equipment manufacturer,
-                    BEML Limited keeps the Indian Army and other defence forces abreast with
+                <p>Being India's leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with 
                     state-of-the-art military equipment.
                 </p>
             </div>
@@ -207,7 +195,7 @@
                 <div class="swiper-pagination"></div>
 
                 <div class="nav-btn">
-                    <img class="swiper-button-prev" src="public/images/left-arrow.png" alt=""></br>
+                    <img  class="swiper-button-prev" src="public/images/left-arrow.png" alt=""></br>
                     <img class="swiper-button-next" src="public/images/right-arrow.png" alt="">
                     <div></div>
                 </div>
@@ -218,20 +206,18 @@
     <div class="items-7">
         <div class="items-7-txt col-6">
             <h3> <span> - </span> Meet Our Clients<h3>
-                    <h2>THEY BELIEVE IN US</h2>
-                    <div class="txt-7">
-                        <p>
-                            Being India’s leading defence equipment manufacturer,
-                            BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art
-                            military equipment.
-                        </p>
-                        <p>
-                            Being India’s leading defence equipment manufacturer,
-                            BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art
-                            military equipment.  
-                        </p>
-                    </div>
-                    <a href="#"><img src="public/images/view_all_btn.png" alt=""></a>
+            <h2>THEY BELIEVE IN US</h2>
+            <div class="txt-7">
+                <p>
+                    Being India’s leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art military equipment.
+                </p>
+                <p>
+                    Being India’s leading defence equipment manufacturer, 
+                    BEML Limited keeps the Indian Army and other defence forces abreast with state-of-the-art military equipment.  
+                </p>
+            </div>
+                <a href="#" ><img src="public/images/view_all_btn.png" alt=""></a>
         </div>
 
         <div class="itemslider-7 col-6">
@@ -257,10 +243,9 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption row">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to 
                                 Develop Indigenous Train Control Management System (i-TCMS)</p>
-                            <a href="http://example.com" class="button">Read more<img
-                                    src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -271,9 +256,8 @@
                         <div class="caption">
                             <h4>News Title 2</h4>
                             <p>Defence Secretary inaugurates test firing of India’s first indigenously
-                                developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
-                            <a href="http://example.com" class="button">Read more<img
-                                    src="public/images/up-right-arrow.svg" alt=""></a>
+                                 developed Prototype 1500 HP Engine by BEML for Main Battle Tank</p>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -283,10 +267,9 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption">
                             <h4>News Title 3</h4>
-                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat
+                            <p>Hon’ble Union Minister for Railways inaugurates India’s First Vande Bharat 
                                 SleeperTrainset Carbody Structure</p>
-                            <a href="http://example.com" class="button">Read more<img
-                                    src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -296,10 +279,9 @@
                         <img src="public/images/news1.png" alt="">
                         <div class="caption">
                             <h4>News Title 1</h4>
-                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop
+                            <p>BEML Ltd and Bharat Electronics Limited (BEL) Forge Partnership to Develop 
                                 Indigenous Train Control Management System (i-TCMS)</p>
-                            <a href="http://example.com" class="button">Read more<img
-                                    src="public/images/up-right-arrow.svg" alt=""></a>
+                            <a href="http://example.com" class="button">Read more<img src="public/images/up-right-arrow.svg" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -307,7 +289,8 @@
             </div>
             <div class="swiper-pagination"></div>
         </div>
-    </div>
+    </div>    
 </div>
 
 <?php include_once('footer.php'); ?>
+
