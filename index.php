@@ -64,7 +64,7 @@ $header->includeHeader('Index Page', '');
                     <p>BEML Limited, a 'Schedule 'A' Company under Ministry of Defence, Govt. Of India, plays a pivotal role and serves India's core sectors like Defence, Rail, Power, Mining and Infrastructure.</p>
                     <p>The Company started with a modest turnover of Rs. 5 Crs. during 1965 and today, thanks to its diverse business portfolio, the company has been able to achieve a turnover of more than Rs. 4,300 Crs.</p>
                     <p>BEML Limited, formerly Bharat Earth Movers Limited, is an Indian public sector undertaking which manufactures a variety of heavy equipment.</p>
-                    <button class="btn btn-outline-danger">Explore Our Projects</button>
+                    <a href=""><img src="public/images/button.svg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -148,13 +148,12 @@ $header->includeHeader('Index Page', '');
 
                 <div class="name-label"> 
                     <div class="a">
-                        <h4>SHRI SHANTANU ROY</h4>
-                        <h5>Chairman & Managing Director</h5>
+                        <h5>SHRI SHANTANU ROY</h5>
+                        <p>Chairman & Managing Director</p>
                     </div>
                     <div class="b">
                         <img src="public/images/group-admin.png" alt="">
-                    </div>
-                    
+                    </div>                    
                 </div>
                 <p>Shri Shantanu Roy assumed charge as Chairman & Managing Director at BEML Ltd.,
                     w.e.f. 01.08.2023. Prior to assuming his present position,
@@ -171,9 +170,14 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/team2.png">
                 </div>
                 <div class="">
-                    <div class="title">
-                        <p class=""><small class="text-body-secondary">CEO - FOUNDER</small></p>
-                        <h5 class="">Robert Fox</h5>
+                    <div class="top">
+                        <div class="title">
+                            <p class=""><small class="text-body-secondary">CEO - FOUNDER</small></p>
+                            <h5 class="">Robert Fox</h5>
+                        </div>
+                        <div class="title-img">
+                            <img src="public/images/teams.svg" alt="">
+                        </div>
                     </div>
                     <div class="hr"></div>
                     <p class="text">Sed ut perspiciatis unde omnis iste natus error
@@ -187,9 +191,14 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/team3.png">
                 </div>
                 <div class="">
-                    <div class="title">
-                        <p class=""><small class="text-body-secondary">OFFICE MANAGER</small></p>
-                        <h5 class="">Jeny Fisher</h5>
+                    <div class="top">
+                        <div class="title">
+                            <p class=""><small class="text-body-secondary">OFFICE MANAGER</small></p>
+                            <h5 class="">Jeny Fisher</h5>
+                        </div>
+                        <div class="title-img">
+                            <img src="public/images/teams.svg" alt="">
+                        </div>
                     </div>
                     <div class="hr"></div>
                     <p class="text">Nemo enim ipsam voluptatem quia voluptas
@@ -204,9 +213,14 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/team4.png">
                 </div>
                 <div class="">
-                    <div class="title">
-                        <p class=""><small class="text-body-secondary">CHIEF MARKETING</small></p>
-                        <h5 class="">Guy Hawkins</h5>
+                    <div class="top">
+                        <div class="title">
+                            <p class=""><small class="text-body-secondary">CHIEF MARKETING</small></p>
+                            <h5 class="">Guy Hawkins</h5>
+                        </div>
+                        <div class="title-img">
+                            <img src="public/images/teams.svg" alt="">
+                        </div>
                     </div>
                     <div class="hr"></div>
                     <p class="text">Neque porro quisquam est, qui dolorem
