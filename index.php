@@ -12,8 +12,11 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/building.jpg" alt="">
                     <!-- img text -->
                     <div class="overlay-text container-fluid">
-                        <div>
-                            <label><img src="public/images/rpund 2.png" alt=""></label><br>
+                        <div class="rotating-image">
+                            <img id="myImage" src="public/images/round_txt.png" alt="">
+                        </div>
+                        <img class="arrow" src="public/images/cross-arrow.png" alt="">
+                        <div>    
                             <label>
                                 <h1>BEML</h1>
                             </label></br>
@@ -40,8 +43,11 @@ $header->includeHeader('Index Page', '');
                     <img src="public/images/building.jpg" alt="">
                     <!-- img text -->
                     <div class="overlay-text container-fluid">
+                        <div class="rotating-image">
+                            <img id="myImage" src="public/images/round_txt.png" alt="">
+                        </div>
+                        <img class="arrow" src="public/images/cross-arrow.png" alt="">
                         <div>
-                            <label><img src="public/images/rpund 2.png" alt=""></label><br>
                             <label>
                                 <h1>BEML</h1>
                             </label></br>

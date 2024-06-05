@@ -12,6 +12,7 @@ class Header {
                 <link rel="stylesheet" href="'.$parentPath.'public/bootstrap/bootstrap.min.css">
                 <link rel="stylesheet" href="'.$parentPath.'public/fontawesome/css/all.css">
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+                <link rel="stylesheet" href="'.$parentPath.'public/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
                 <link rel="preconnect" href="https://fonts.googleapis.com">
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
                 <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
@@ -41,7 +42,7 @@ class Header {
                             <li><a href="#">TENDER</a></li>
                             <li><a href="#">HELP DESKTESTMONIALS</a></li>
                             <li><a href="#">CONTACT US</a></li>
-                            <li><a href="#">STOCK:bse|nas</a></li>
+                            <li><a href="#">STOCK:<span>bse|nas </span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -52,7 +53,7 @@ class Header {
                     <div class="search-bar"><input type="text" name="search" placeholder="Search Here..."><img src="public/images/search.png"></div>
                     <div class="adv-image"><img src="public/images/adv_img.png"></div>
                     <div class="languages">
-                        <label >Language<img src="public/images/down_arrow.png"> </label>
+                        <label >Language <h5><i class="mx-2 bi bi-chevron-down"></h5></i> </label>
                         <span> <img src="public/images/flag-temp.png"> <b> English </b> </span>
                     </div>
                 </div>
