@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>'.$title.'</title>
-<link rel="stylesheet" href="public/css/style.css">
-<link rel="stylesheet" href="public/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="public/fontawesome/css/all.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-<link rel="stylesheet" href="public/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEML INDIA</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="public/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="public/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="public/css/360view.css" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="public/js/360ImageRotate.min.js"></script>
 </head>
 <body>  
 <div class="fist-row"> 
@@ -354,7 +358,7 @@
             </div>
         </div>
         <div class="main">
-            <img src="public/images/main.png" alt="">
+            <div class="threesixty-image-rotate product"></div>
         </div>
         <div class="bottom">
             <div class="col-4">
@@ -365,7 +369,7 @@
                     <li class="m-2"><img src="public/images/o1.png" class="me-2"> BH205E </li>
                     <li class="m-2"><img src="public/images/o2.png" class="me-2"> BE1800D </li>
                     <li class="m-2"><img src="public/images/o3.png" class="me-2"> BE1000-1 </li>
-
+    
                 </ul>
             </div>
             <div class="col-4">
@@ -386,7 +390,7 @@
                     <li class="m-2"><img src="public/images/u1.png" class="me-2"> Mine Locomotive 12 T </li>
                     <li class="m-2"><img src="public/images/u2.png" class="me-2"> Granby Car 7.5 T </li>
                     <li class="m-2"><img src="public/images/u3.png" class="me-2"> Granby Car 5.4 T </li>
-
+    
                 </ul>
             </div>
         </div>
@@ -724,6 +728,22 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="public/js/slider.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".product")
+            .TreeSixtyImageRotate({
+                totalFrames: 13,
+                endFrame: 13,
+                currentFrame: 0,
+                extension: ".png",
+                imagesFolder: "public/images/360view/",
+                smallWidth: 1500,
+                smallHeight: 900,
+                imagePlaceholderClass: "images-placeholder",
+            })
+            .initTreeSixty();
+    });
+</script>
 
 </body>
 </html>
