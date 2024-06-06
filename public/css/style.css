@@ -529,9 +529,9 @@ label h1 {
   height: 70% !important;
   width: 40%;
 }
-.nav-btn:nth-child(2) {
-  margin: 100px;
-}
+/* .nav-btn:nth-child(2) {
+  margin: 10px;
+} */
 
 /** items - 6 -slider */
 .itemslider-6 .swiper {
@@ -566,11 +566,6 @@ label h1 {
   width: 100%;
   padding: 50px;
   transition: background-color 0.5s ease-in-out;
-}
-
-
-.itemslider-6 .swiper-pagination {
-  position: inherit;
 }
 
 /** items 6 end*/
