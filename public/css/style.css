@@ -296,6 +296,11 @@ label h1 {
   margin-bottom: 50px;
 }
 
+.line-bottom {
+  margin-top: 18%;
+  bottom: 0;
+}
+
 /**  main flued rotation image text start */
 
 .rotating-image {
