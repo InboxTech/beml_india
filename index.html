@@ -60,9 +60,9 @@
 
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <ul class="navbar-nav mainnav">
+            <ul class="navbar-nav mainnav" id="triggerDiv">
                 <li class="nav-item"><a href="#"> Home </a></li> 
-                <li class="nav-item"><a href="#"> Corporate <img src="public/images/down_arrow.png"></a></li> 
+                <li class="nav-item"><a href="#" id="triggerDiv"> Corporate <img src="public/images/down_arrow.png"></a></li> 
                 <li class="nav-item"><a href="#"> Business <img src="public/images/down_arrow.png"></a></li> 
                 <li class="nav-item"><a href="#"> Facilities <img src="public/images/down_arrow.png"></a></li> 
                 <li class="nav-item"><a href="#"> Inverter </a></li> 
@@ -75,7 +75,7 @@
         </div>
     </nav>
 
-    <div class="nav-sub-items">
+    <div class="nav-sub-items" id="hoverDiv">
         <ul>
             <li>
                 <img src="public/images/nav_icons/shield_icon.png" alt="">
@@ -793,6 +793,19 @@
                     imagePlaceholderClass: "images-placeholder",
                 })
                 .initTreeSixty();
+        });
+    </script>
+
+    <script>
+        const triggerDiv = document.getElementById('triggerDiv');
+        const hoverDiv = document.getElementById('hoverDiv');
+    
+        triggerDiv.addEventListener('mouseenter', () => {
+        hoverDiv.style.display = 'block';
+        });
+    
+        triggerDiv.addEventListener('mouseleave', () => {
+        hoverDiv.style.display = 'none';
         });
     </script>
 
