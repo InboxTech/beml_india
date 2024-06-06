@@ -410,7 +410,9 @@ label h1 {
 .page-3 .button img{
     height: 10px;
     width: 10px;
-}
+} 
+
+
 /* page 4 */
 .page-4 .line2 {
     border: 1px solid #434343 !important;
@@ -459,6 +461,13 @@ label h1 {
   justify-content: center;  
   gap:20px;
 }
+
+.allcard .card {
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
 .items-5 .card {
   padding: 25px;
   width: 25%;
@@ -524,7 +533,6 @@ label h1 {
   margin: 100px;
 }
 
-
 /** items - 6 -slider */
 .itemslider-6 .swiper {
   width: 100%;
@@ -547,10 +555,23 @@ label h1 {
   object-fit: cover;
 }
 
+.itemslider-6 .swiper-slide h3 {
+  position: absolute;
+  bottom: -10px;
+  padding: 50px;
+}
+
+.itemslider-6 .swiper-slide h3:hover {
+  background-color: red;
+  width: 100%;
+  padding: 50px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+
 .itemslider-6 .swiper-pagination {
   position: inherit;
 }
-
 
 /** items 6 end*/
 

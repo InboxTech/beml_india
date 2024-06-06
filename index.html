@@ -251,18 +251,26 @@
                 <h1 class="col">BEML OFFERS QUALITY PRODUCTS</h1>
             </div>
             <div class="d-flex">
-                <div class="item">
-                    <img src="public/images/defence.png" alt="Defence & Aerospace">
+                <div class="item"
+                onmouseenter="handleHover('public/images/card_items/Rectangle_2.png', 'public/images/mining.png', 'public/images/rail.png')" 
+                onmouseleave="handleHover('public/images/defence.png', 'public/images/mining.png', 'public/images/rail.png')">
+                    <img id="hover-img" src="public/images/defence.png" alt="Defence & Aerospace">
                     <span>DEFENCE & AEROSPACE</span>
                     <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
                 </div>
-                <div class="item">
-                    <img src="public/images/mining.png" alt="Mining">
+                  
+                <div class="item" 
+                onmouseenter="handleHover('public/images/defence.png', 'public/images/card_items/Rectangle_1.png', 'public/images/rail.png')" 
+                onmouseleave="handleHover('public/images/defence.png', 'public/images/mining.png', 'public/images/rail.png')">
+                    <img id="hover-img2" src="public/images/mining.png" alt="Mining">
                     <span>DEFENCE & AEROSPACE</span>
                     <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
                 </div>
-                <div class="item">
-                    <img src="public/images/rail.png" alt="Rail">
+    
+                <div class="item"
+                onmouseenter="handleHover('public/images/defence.png', 'public/images/mining.png', 'public/images/card_items/Rectangle_3.png')" 
+                onmouseleave="handleHover('public/images/defence.png', 'public/images/mining.png', 'public/images/rail.png')">
+                    <img id="hover-img3" src="public/images/rail.png" alt="Rail">
                     <span>DEFENCE & AEROSPACE</span>
                     <button class="button"><img src="public/images/up-right-arrow.svg" alt=""></button>
                 </div>
@@ -305,8 +313,8 @@
                 </div>
             </div>
             <div class="allcard col-lg-12">
-                <div class="card col-lg-4">
-                    <div class="images"><img src="public/images/monster-truck.png" alt=""></div>
+                <div class="card col-lg-4 " id="card1">
+                    <div ><img src="public/images/monster-truck.png" alt=""></div>
                     <div class="name"><h3>ABVP</h3></div>
                     <div class="description">BEML plays a stellar role in the country's 
                         Integrated Guided Missile Development Project by supplying ground support vehicles. 
@@ -315,8 +323,8 @@
                     </div>
                     <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
                 </div>
-                <div class="card col-lg-4">
-                    <div class="images"><img src="public/images/tank_1.png" alt=""></div>
+                <div class="card col-lg-4" id="card2">
+                    <div ><img src="public/images/tank_1.png" alt=""></div>
                     <div class="name"><h3>ARRV</h3></div>
                     <div class="description">BEML plays a stellar role in the country's 
                         Integrated Guided Missile Development Project by supplying ground support vehicles. 
@@ -325,8 +333,8 @@
                     </div>
                     <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
                 </div>
-                <div class="card col-lg-4">
-                    <div class="images"><img src="public/images/Group.png" alt=""></div>
+                <div class="card col-lg-4" id="card3">
+                    <div ><img src="public/images/Group.png" alt=""></div>
                     <div class="name"><h3>SARVATRA BRIDGING SYSTEM</h3></div>
                     <div class="description">BEML plays a stellar role in the country's 
                         Integrated Guided Missile Development Project by supplying ground support vehicles. 
@@ -335,7 +343,7 @@
                     </div>
                     <div class="learn-btn"><a href="#"></a><img src="public/images/btn-arrow.png" alt=""></a></div>
                 </div>
-            </div>        
+            </div>
         </div>
         <!-- items-6 -->
         <div class="items-6">
@@ -352,13 +360,16 @@
             <div class="itemslider-6">
                 <div class="swiper mySwipermaxx">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="public/images/train-1.1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/images/train-2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/images/train-3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="public/images/train-1.1.png" alt="">
+                            <h3>ATO / ATP WITH CBTC</h3>
+                        </div>
+                        <div class="swiper-slide"><img src="public/images/train-2.png" alt="">
+                            <h3>UTO / DRIVERLESS</h3>
+                        </div>
+                        <div class="swiper-slide"><img src="public/images/train-3.png" alt="">
+                            <h3>MAIN LINE</h3>
+                        </div>
 
-                        <div class="swiper-slide"><img src="public/images/train-1.1.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/images/train-2.png" alt=""></div>
-                        <div class="swiper-slide"><img src="public/images/train-3.png" alt=""></div>
                     </div>
                     <div class="swiper-pagination"></div>
 
@@ -783,19 +794,61 @@
     <script>
         $(document).ready(function() {
             $(".product")
-                .TreeSixtyImageRotate({
-                    totalFrames: 13,
-                    endFrame: 13,
-                    currentFrame: 0,
-                    extension: ".png",
-                    imagesFolder: "public/images/360view/",
-                    smallWidth: 1500,
-                    smallHeight: 900,
-                    imagePlaceholderClass: "images-placeholder",
-                })
-                .initTreeSixty();
+            .TreeSixtyImageRotate({
+                totalFrames: 13,
+                endFrame: 13,
+                currentFrame: 0,
+                extension: ".png",
+                imagesFolder: "public/images/360view/",
+                smallWidth: 1500,
+                smallHeight: 900,
+                imagePlaceholderClass: "images-placeholder",
+            })
+            .initTreeSixty();
         });
     </script>
+    <script>
+        function handleHover(imgSrc1, imgSrc2, imgSrc3) {
+            const hoverImg = document.getElementById("hover-img");
+            const hoverImg2 = document.getElementById("hover-img2");
+            const hoverImg3 = document.getElementById("hover-img3");
+            
+            hoverImg.src = imgSrc1;
+            hoverImg2.src = imgSrc2;
+            hoverImg3.src = imgSrc3;
+        }
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const card1 = document.getElementById('card1');
+            const card2 = document.getElementById('card2');
+            const card3 = document.getElementById('card3');
+
+            function addCardHoverEvents(card, imageUrl) {
+                card.addEventListener('mouseover', function() {
+                    card.style.color = "white";
+                    card.style.backgroundImage = `url('${imageUrl}')`;
+                    [card1, card2, card3].forEach(c => {
+                        if (c !== card) {
+                            c.style.color = "black";
+                            c.style.backgroundImage = "";
+                        }
+                    });
+                });
+
+                card.addEventListener('mouseout', function() {
+                    card.style.backgroundImage = "";
+                    card.style.color = "black";
+                });
+            }
+
+            addCardHoverEvents(card1, "public/images/card_items/Rectangle_2.png");
+            addCardHoverEvents(card2, "public/images/card_items/Rectangle_1.png");
+            addCardHoverEvents(card3, "public/images/card_items/Rectangle_3.png");
+        });
+    </script>
+
 </body>
 </html>
 
