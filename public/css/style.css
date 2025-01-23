@@ -647,7 +647,6 @@ flex-direction: column;
 }
 .items-8 .bottom{
   display: flex;
-  gap: 50px;
 }
 
 /** items 9*/

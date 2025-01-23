@@ -1,0 +1,205 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        img {
+            width: 50%; /* Adjust width as needed */
+            height: auto;
+            display: block;
+            cursor: pointer;
+            margin: auto; /* Change cursor to indicate clickable image */
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        <img id="sliderImage" src="public/images/360view/0.png" alt="Image Slider">
+        <div class="buttons">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const images = [
+            'public/images/360view/1.png',
+            'public/images/360view/2.png',
+            'public/images/360view/3.png',
+            'public/images/360view/4.png',
+            'public/images/360view/5.png',
+            'public/images/360view/6.png',
+            'public/images/360view/7.png',
+            'public/images/360view/8.png',
+        ];
+
+        let currentIndex = 0;
+
+        const sliderImage = document.getElementById('sliderImage');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        function updateImage() {
+            sliderImage.src = images[currentIndex];
+        }
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateImage();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateImage();
+        });
+
+        // Add click event to the image to rotate
+        sliderImage.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length; // Rotate to next image
+            updateImage();
+        });
+
+        // Initialize the first image
+        updateImage();
+    </script>
+</body>
+
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            overflow: hidden; /* Prevent page scrolling */
+        }
+
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full height for the slider */
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center image */
+        }
+
+        img {
+            width: 50%; /* Adjust width as needed */
+            height: auto;
+            display: block;
+            cursor: pointer; /* Change cursor to indicate clickable image */
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        button {
+            margin: 0 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider" id="sliderContainer">
+        <img id="sliderImage" src="public/images/360view/0.png" alt="Image Slider">
+        <div class="buttons">
+            <button id="prevBtn">Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        const images = [
+            'public/images/360view/0.png',
+            'public/images/360view/1.png',
+            'public/images/360view/2.png',
+            'public/images/360view/3.png',
+            'public/images/360view/4.png',
+            'public/images/360view/5.png',
+            'public/images/360view/6.png',
+            'public/images/360view/7.png',
+            'public/images/360view/8.png',
+        ];
+
+        let currentIndex = 0;
+
+        const sliderImage = document.getElementById('sliderImage');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const sliderContainer = document.getElementById('sliderContainer');
+
+        function updateImage() {
+            sliderImage.src = images[currentIndex];
+        }
+
+        nextBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length;
+            updateImage();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + images.length) % images.length;
+            updateImage();
+        });
+
+        // Add click event to the image to rotate
+        sliderImage.addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % images.length; // Rotate to next image
+            updateImage();
+        });
+
+        // Function to handle scroll event
+        function handleScroll(event) {
+            if (event.deltaY > 0) {
+                // Scroll down
+                currentIndex = (currentIndex + 1) % images.length;
+            } else {
+                // Scroll up
+                currentIndex = (currentIndex - 1 + images.length) % images.length;
+            }
+            updateImage();
+            event.preventDefault(); // Prevent default scrolling
+        }
+
+        // Listen for scroll events only when the mouse is over the image container
+        sliderContainer.addEventListener('wheel', handleScroll);
+
+        // Initialize the first image
+        updateImage();
+    </script>
+</body>
+
+</html>
